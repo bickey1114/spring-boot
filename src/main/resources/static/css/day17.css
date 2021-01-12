@@ -1,0 +1,36 @@
+@charset "UTF-8";
+h1{
+    background-color:orange;
+    text-align:center;
+    width:15vw;
+    height:4vw;
+}
+.form{
+    background-color:rgb(4, 4, 92);
+    line-height:40px;
+    color:white;
+    width:40vw;
+    /* height:10vw; */
+    padding:1vw;
+    margin:1vw;
+    border:solid 0.5vw black;
+}
+td{
+    color:blue;
+}
+img{
+    width: 300px;
+    height:300px;
+    padding:20px;
+}
+.a{
+    border-top:solid 3px black;
+    border-bottom:solid 3px black;
+    padding:50px;
+}
+label{
+    padding-right:30px;
+}
+body{
+    margin:0;
+}

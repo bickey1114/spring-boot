@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link th:href="@{/css/day17.css}"rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<h1><a href="index.html">サイト名</a></h1>
+		<div class="a">
+		<p>aboutページは<a href="about.html">こちら</a></p>
+		<p>HTMLを使うと文字や画像などをウェブページに載せることができますが、デザインはCSSを使わなければ変
+			更できません。<br>改行はHTMLだけでできます。</p>
+		<table>
+			<tr><th>表</th><th>列1</th><th>列2</th><th>列3</th></tr>
+			<tr><th>行1</th><td>データ</td><td>データ</td><td>データ</td></tr>
+			<tr><th>行2</th><td>データ</td><td>データ</td><td>データ</td></tr>
+			<tr><th>行3</th><td>データ</td><td>データ</td><td>データ</td></tr>
+		</table></div>
+		
+		<img src=image\盗作.jpg>
+
+		<div class="form">
+			<form action="about.html">
+				<label for="text">名前</label><input type="text" id="text">
+				<label for="email"><br>メールアドレス</label><input type="email" id="email">
+				<label for="password"><br>パスワード</label><input type="password" id="password">
+				<label><br>学年:</label>
+				<input type="radio" id="one"><label for="one">1年</label>
+				<input type="radio" id="two"><label for="two">2年</label>
+				<input type="radio" id="three"><label for="three">3年</label>
+				<label for="file"><br>ファイル</label><input type="file" id="file">
+			</form></div>
+	</body>
+</html>
